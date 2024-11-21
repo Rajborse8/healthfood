@@ -1,0 +1,48 @@
+.related-products-container {
+  margin: 20px 10px;
+}
+
+.product__list {
+  display: flex;
+  justify-content: space-between; /* Distributes space evenly */
+  flex-wrap: wrap; /* Allows wrapping to the next line if necessary */
+}
+
+.product__single {
+  flex: 1; /* Each product takes equal space */
+  margin: 10px; /* Margin around each product */
+  min-width: 200px; /* Minimum width for each product */
+  text-decoration: none; /* Remove underline from links */
+  color: inherit; /* Inherit text color from parent */
+}
+
+.product__image {
+  border: 1px solid #0e0d0d; /* Optional: add border around product image */
+  border-radius: 8px; /* Optional: rounded corners */
+  overflow: hidden; /* Hide overflow */
+  text-align: center; /* Center align text */
+}
+
+.product__name {
+  font-size: 1.2em; /* Adjust font size for product name */
+  font-weight: bold; /* Bold text */
+  margin: 10px 0; /* Margin around product name */
+}
+
+.product__detail {
+  margin-top: 10px; /* Space between price and other details */
+}
+
+.btn__cart {
+  display: inline-block; /* Makes the button a block-level element */
+  padding: 10px 20px; /* Padding for button */
+  background-color: var(--primary-color-1); /* Button background color */
+  color: white; /* Text color */
+  border-radius: 5px; /* Rounded corners */
+  text-align: center; /* Center align text in button */
+  transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+.btn__cart:hover {
+  background-color: var(--secondary-color-1); /* Change color on hover */
+}

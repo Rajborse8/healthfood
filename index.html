@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- -------------- Favicon -------------- -->
+  <link rel="apple-touch-icon" sizes="180x180" href="header/shop-health-high-resolution-logo.png" />
+  <link rel="icon" type="image/png" sizes="32x68" href="header/shop-health-high-resolution-logo.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="header/green logo.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <!-- ------------ Font-awsome ------------ -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+  <!-- ------------- Google Fonts -------------- -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@500;700;900&family=Yellowtail&display=swap"
+    rel="stylesheet" />
+ 
+  <!-- --------------- Main Css ---------------- -->
+  <link rel="stylesheet" href="/style.css" />
+  <!-- <link rel="stylesheet" href="./assets/css/home.css" /> -->
+  <title>Organick | india</title>
+</head>
+
+<body>
+<!-- this will trigger the id #header to include the header -->
+<div id="header">
+  <header id="header" class="header__main flx wrp">
+    <!-- logo -->
+    <div class="logo__main">
+      <img src="header/shop-health-high-resolution-logo-transparent.png" alt="Organick logo" />
+    </div>
+
+    <!-- ------------------ Nav ------------------ -->
+    <div class="nav__wrapper">
+      <nav class="nav__main">
+        <ul class="ul__main flx">
+          <a href="index.html">
+            <li>Home</li>
+          </a>
+          <a href="about.html">
+            <li>About</li>
+          </a>
+          <li class="dropdown">
+            <a href="shope.html">Shope</a>
+            <i class="fa fa-chevron-circle-down" aria-hidden="true"></i>
+
+            <ul class="dropdown-menu">
+              <li><a href="Shop-Single.html">Shop Single</a></li>
+              
+            </ul>
+          </li>
+          <a href="contact.html">
+            <li>Contact</li>
+          </a>
+          <a href="blog.html">
+            <li>Blog</li>
+          </a>
+        </ul>
+      </nav>
+
+      <div class="search flx">
+        <label for="search"></label>
+        <input type="text" id="search" />
+        <a href="">
+          <img src="header/search-icon.png" alt="search icon" />
+        </a>
+      </div>
+      <div id="search-results">
+  </div>
+
+
+      <div class="cart flx">
+        <img src="header/cart-icon.png" class="cart__icon" alt="cart icon" />
+        <p id="cart-count">cart (0)</p>
+
+        <div class="cart__items">
+          <p>cart items</p>
+          <div class="cart__single">
+            <div class="cart__image">
+             
+            <img src="Shop/product-3.png" alt="">
+            </div>
+            
+            <div class="cart__info">
+                <p class="product__name">Nuts</p>
+              
+                  <div class="product__price-single">
+                    <p class="product__discount">₹2000</p>
+                    <p class="product__price">₹1300</p>
+                    </div>
+                 
+            
+                    <div class="product__detail">
+                        <p>Quantity :</p>
+                        <span class="qty__btn">
+                        <button class="qty-count qty-count--minus" data-action="minus" type="button">-</button>
+            <input class="product-qty" type="number" name="product-qty" min="0" max="10" value="1">
+            <button class="qty-count qty-count--add" data-action="add" type="button">+</button>
+            </span>
+                       
+                    </div>
+
+            
+                
+            </div>
+           
+            </div>
+            <div class="cart__btn">
+              <a href="product.html" class=" xd__btn btn-secondary">view cart
+                <img src="hero/btn-arrow-icon.png" alt="">
+            </a>
+
+            <a href="checkout.html" class=" xd__btn btn-secondary">checkout
+              <img src="hero/btn-arrow-icon.png" alt="">
+          </a>
+            </div>
+        </div>
+      
+        </div>
+      </div>
+    </div>
+    <!-- -------------- Humber Menu -------------- -->
+    <button class="hamburger" type="button">
+      <span class="hamburger__line"></span>
+      <span class="hamburger__line"></span>
+      <span class="hamburger__line"></span>
+    </button>
+  </header>
+</div>
+
+
+<!-- Home page starts -->
+  <main>
+    <section id="hero" class="">
+      <div class="hero">
+        <div class="hero__overlay">
+          <div class="hero__content wrp">
+            <div class="hero__text">
+              <p class="xd_subtitle">100% Natural Fruits And Vegetables </p>
+              <h1>Choose the best healthier way of life</h1>
+              <a href="shope.html" class="xd__btn btn-primary">Shop Now 
+                <img src="hero/btn-arrow-icon.png" alt="" />
+              </a>
+            </div>
+
+            <div class="hero__graphic">
+              <img src="hero/Banner.jpg" alt="Description of image" />   
+          
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ######################################### -->
+    <!--                   OFFER                   -->
+    <!-- ######################################### -->
+    <section id="offer">
+      <div class="offer wrp">
+        <div class="offer__card offer__one">
+          <a href="fruit.html">
+            <img src="offer/offer-1-img.png" alt="" />
+            <p>Natural!!</p>
+            <h2><span>Get Garden Fresh Fruits</span></h2>
+          </a>
+        </div>
+
+        <div class="offer__card offer__two">
+          <a href="#">
+            <img src="offer/offer-2-img.png" alt="" />
+            <p>Offer!!</p>
+            <h2><span>Get 10% off on Vegetables</span></h2>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ######################################### -->
+    <!--                   ABOUT                   -->
+    <!-- ######################################### -->
+    <section id="about">
+      <div class="about wrp">
+        <div class="about__content">
+          <div class="about__graphic">
+            <img src="About/about-bg.png" alt="" />
+          </div>
+          <div class="about__text">
+            <p class="xd_subtitle">About us</p>
+            <h2>We Believe in Working Accredited Farmers</h2>
+            <p>
+              Believes that farming is the biggest job on Earth and that farmers face many challenges, including climate change, limited arable land, and rising consumer expectations. 
+            </p>
+
+            <div class="about__text-content">
+              <div class="about__box about__text-one">
+                <img src="About/Vegan-icon.png" alt="" />
+                <div class="box__title">
+                  <h3>Organic Foods Only</h3>
+                  <p>
+                    Organic food is food that's grown and processed using methods that comply with government-regulated standards.
+                  </p>
+                </div>
+              </div>
+
+              <div class="about__box about__text-two">
+                <img src="About/Mailbox-icon.png" alt="" />
+                <div class="box__title">
+                  <h3>Quality Standards</h3>
+                  <p>
+                    Ingredient specifications: Ensuring that ingredients are of the right quality and safety before use 
+Facility layout: Ensuring that facilities are the right size and layout to allow for proper storage and flow of materials and personnel 
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- btn -->
+            <a href="about.html" class="xd__btn btn-secondary">Shop Now
+              <img src="hero/btn-arrow-icon.png" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ######################################### -->
+    <!--                  PRODUCT                  -->
+    <!-- ######################################### -->
+    <section id="product" class="wrp">
+      <div class="products">
+        <div class="product__title">
+          <p class="xd_subtitle">Categories</p>
+          <h2>Our Products </h2>
+          <img src="" alt="Description of image" />
+        </div>
+
+       
+
+        <a href="shope.html" id="loadMore" class="product__btn xd__btn btn-secondary">Load More
+          <img src="hero/btn-arrow-icon.png" alt="" />
+         
+        </a>
+      </div>
+    </section>
+
+
+    <!-- ######################################### -->
+    <!--                   BLOG                    -->
+    <!-- ######################################### -->
+
+    <section id="blog" class="wrp">
+      <div class="blog__title">
+        <p class="xd_subtitle">News</p>
+        <h2>Discover weekly content about organic food, & more</h2>
+      </div>
+
+      <div class="blog__content">
+
+        <!-- ------------ Blog Post 1 ------------ -->
+        <div class="blog__post post-1">
+          <p class="blog-tag">25 Nov</p>
+          <div class="blog__detial ">
+            <img src="BLOG/blog-post-2.png" alt="Description of image" />
+            <h3>The Benefits of Vitamin D</h3>
+            <p>Benifits of Vitamind d full blog here</p>
+            <a href="#" class="xd__btn btn-primary">Read More
+              <img src="hero/btn-arrow-icon.png" alt="">
+            </a>
+          </div>
+        </div>
+        <!-- -------------- Blog Post 2 -------------- -->
+        <div class="blog__post post-2">
+          <p class="blog-tag">25 Nov</p>
+          <div class="blog__detial">
+            <img src="BLOG/blog-post-1.png" alt="Description of image" /> 
+            <h3>Our Favorite Summertime Tomato</h3>
+            <p>What actually tomato did hows tomato is good for our Health</p>
+            <a href="#" class="xd__btn btn-primary">Read More
+              <img src="hero/btn-arrow-icon.png" alt="">
+                
+            </a>
+          </div>
+        </div>
+       
+       
+
+      </div>
+
+    </section>
+  </main>
+
+  <!-- this will target the footer by Id #footer -->
+  <div id="footer"></div>
+<!-- ------------ Home Page Ends ------------- -->
+    <!-- ######################################### -->
+    <!--                 SUBSCRIBE                 -->
+    <!-- ######################################### -->
+    <section id="subscribe" class="wrp">
+      <div class="subscribe flx">
+        <h2>Subscribe to
+          our Newsletter
+        </h2>
+
+        <form action="" class="flx">
+          <img src="subscribe/subscribe-bg.png" alt="Description of image" />
+          <label for="email"></label>
+          <input type="email" id="email" placeholder="yourmail@gmail.com">
+          <a href="#" type="submit" class="subscribe__btn xd__btn btn-secondary">subscribe</a>
+         
+        </form>
+      </div>
+    </section>
+<!-- ######################################### -->
+<!--                  FOOTER                   -->
+<!-- ######################################### -->
+<section>
+  <footer id="footer">
+    <div class="footer__grid wrp">
+      <!-- --------------- Column 1 ---------------- -->
+      <div class="footer__col-1">
+        <p class="footer__col-title p-bold">Contact Us</p>
+        <div>
+          <p class="p-bold">Email</p>
+          <p>shophealth78@gmail.com</p>
+        </div>
+        <div>
+          <p class="p-bold">Phone</p>
+          <p>9405813974</p>
+        </div>
+        <div>
+        <p class="p-bold"> Address</p>
+          <p>80 gate Tilak Nagar jalgaon,Maharashtra jalgaon </p>
+        </div>
+      </div>
+      <!-- --------------- Column 2 ---------------- -->
+      <div class="footer__col-2">
+        <img src="header/main-logo.png" alt="">
+        <p>WE sell organic food we directly purchased from Farmers </p>
+        <div class="footer__soical">
+          <i class="fa fa-instagram" aria-hidden="true"></i>
+          <i class="fa fa-facebook-official" aria-hidden="true"></i>
+          <i class="fa fa-twitter" aria-hidden="true"></i>
+          <i class="fa fa-pinterest" aria-hidden="true"></i>
+
+        </div>
+      </div>
+      <!-- --------------- Column 3 ---------------- -->
+      <div class="footer__col-3">
+        <p class="footer__col-title p-bold">Utility Pages</p>
+
+        <nav>
+          <ul>
+
+            <a href="">
+              <li>Changelog</li>
+            </a>
+
+            <a href="">
+              <li>Style Guide</li>
+            </a>
+
+            <a href="">
+              <li>404 Not Found</li>
+            </a>
+
+            <a href="">
+              <li>Password Protected </li>
+            </a>
+
+            <a href="">
+              <li>Licences</li>
+            </a>
+            
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </footer>
+</section>
+
+
+
+
+
+  
